@@ -24,7 +24,7 @@ const handleRequest = async (request) => {
     return new Response("Seeking truths beyond meaning of life, you will find 43.")
   }
 
-  return new Response("Hello you!");
+  return new Response("Nothing here yet.");
 };
 
 serve(handleRequest, { port: 7777 });
